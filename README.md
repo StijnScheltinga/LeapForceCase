@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Velden
 
-## Getting Started
+## Label
+- Optioneel
+- Standaard waarde: Label
+- constraints: Max 50 karakters
+  
+## Titel
+- Verplicht
+- Standaard Waarde: Verplichte titel voor de <span>Call-To-Action</span> komt hier
+- Tooltip: Tekst tussen de <span> elementen wordt gemarkeerd
+- Constraints: Max 80 karakters
 
-First, run the development server:
+## Subtekst
+- Optioneel
+- Standaard waarde: Optionele tekst komt hier te staan
+- Geen Constraints
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Hoofdknop
+- Optioneel
+- Standaard waarde: hoofdknop
+- Constraints: Max 40 karakters
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Foto 1
+- Verplicht
+- Standaard waarde: Placeholder foto
+- Tooltip: Zorg dat de foto minimaal 515px hoog is.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Foto 2
+- Optioneel
+- Zelfde eigenschappen als foto 1
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Titel foto
+- Verplicht
+- Standaard waarde: Titel
+- Constraints: Max 20 karakters (anders vouwt de titel dubbel op tablet viewport)
 
-## Learn More
+## Subtekst foto
+- Optioneel
+- Standaard waarde: subtekst over de CTA
+- Constraints: Max 100 karakters
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#tech stack
+~ Nextjs
+~ React
+~ Tailwind
